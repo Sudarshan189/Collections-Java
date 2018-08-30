@@ -20,7 +20,7 @@ class CollectionQtwoTest {
 		HashSet<Laptop> laptopCollection = new HashSet<>();
 		
 		assertEquals(true, laptopCollection.add(new Laptop("Lenevo", "A7", "Widows 10 Home Basic", "i7 4 gen")));
-		assertEquals(false, laptopCollection.add(new Laptop("Lenevo", "A7", "Widows 10 Home Basic", "i7 4 gen")));
+		assertEquals(true, laptopCollection.add(new Laptop("abc", "A7", "Widows 10 Home Basic", "i7 4 gen")));
 		assertEquals(true, laptopCollection.add(new Laptop("Dell", "3542", "Linux Mint", "i3 4 gen")));
 		assertEquals(true, laptopCollection.add(new Laptop("Apple", "Mac Air", "Machantosh", "i7 8 gen")));
 		

@@ -3,7 +3,7 @@ package com.sudarshan.day6;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Car {
+public class Car implements Comparable<Car> {
 	private String make;
 	private String model;
 	private int year;
@@ -61,6 +61,13 @@ public class Car {
 		
 		return true;
 	}
+
+	@Override
+	public int compareTo(Car o) {
+		return this.make.compareTo(o.make);
+	}
+	
+	
 	
 	
 	
