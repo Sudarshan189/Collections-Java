@@ -1,4 +1,4 @@
-package com.sudarshan.day6.question1.test;
+package com.sudarshan.day6.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,13 +8,13 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.sudarshan.day6.question1.Car;
-import com.sudarshan.day6.question1.CellPhone;
-import com.sudarshan.day6.question1.Laptop;
-import com.sudarshan.day6.question1.School;
-import com.sudarshan.day6.question1.Television;
+import com.sudarshan.day6.Car;
+import com.sudarshan.day6.CellPhone;
+import com.sudarshan.day6.Laptop;
+import com.sudarshan.day6.School;
+import com.sudarshan.day6.Television;
 
-class CollectionTest {
+class CollectionQoneTest {
 
 //	@BeforeEach
 //	void setUp() throws Exception {
