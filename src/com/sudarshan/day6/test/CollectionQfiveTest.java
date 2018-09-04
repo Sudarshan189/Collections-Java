@@ -23,6 +23,8 @@ class CollectionQfiveTest {
 		for (Car car : carCollection) {
 			System.out.println(car);
 		}
+		assertEquals("[Car [make=Audi, model=gsa, year=2016, price=256666.0], Car [make=BMW, model=C4, year=2014, price=256666.0], Car [make=Maruthi, model=sC4, year=2018, price=256666.0]]", carCollection.toString());
+		
 		
 	}
 

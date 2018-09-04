@@ -21,10 +21,10 @@ public class Car implements Comparable<Car> {
 		this.year = year;
 		this.price = price;
 	}
-	
+
 	public static boolean itarateAllCars(ArrayList<Car> carCollection) {
 		for (Car car : carCollection) {
-			System.out.println(car.make + " " + car.model + " " + car.year + " "+ car.price);
+			System.out.println(car.make + " " + car.model + " " + car.year + " " + car.price);
 		}
 		return true;
 	}
@@ -58,7 +58,7 @@ public class Car implements Comparable<Car> {
 				return false;
 		} else if (!model.equals(other.model))
 			return false;
-		
+
 		return true;
 	}
 
@@ -66,11 +66,5 @@ public class Car implements Comparable<Car> {
 	public int compareTo(Car o) {
 		return this.make.compareTo(o.make);
 	}
-	
-	
-	
-	
-	
-	
 
 }
